@@ -11,6 +11,8 @@ pkgbase = python-sphinxcontrib-jsmath
 	makedepends = python-installer
 	makedepends = python-setuptools
 	makedepends = python-wheel
+	depends = python>=3.12
+	depends = python<3.13
 	source = https://files.pythonhosted.org/packages/source/s/sphinxcontrib-jsmath/sphinxcontrib-jsmath-1.0.1.tar.gz
 	source = jsmath-read_text.patch::https://github.com/sphinx-doc/sphinxcontrib-jsmath/commit/3297b27177ab4862d1b2408a2db66235397fe212.patch
 	sha256sums = a9925e4a4587247ed2191a22df5f6970656cb8ca2bd6284309578f2153e0c4b8
